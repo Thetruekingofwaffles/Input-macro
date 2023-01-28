@@ -3,7 +3,7 @@ use std::io::Write;
 
 fn main() {
     let x = input!("Enter a variable: ");
-
-    println!("The variable is: {}", x);
+    let y = input!();
+    println!("The variable is: {} and {}", x, y);
 
 }
