@@ -10,8 +10,8 @@ macro_rules! input{
         ::std::io::stdout().flush().unwrap();
         let mut input = String::new();
         ::std::io::stdin().read_line(&mut input).unwrap();
-        let y = input.trim().to_owned(); //trim the whitespace out
-        y
+        input = input.trim().to_owned(); //trim the whitespace out
+        input
        }
     };
 
@@ -19,8 +19,8 @@ macro_rules! input{
         use std::io::Write;
         let mut input = String::new();
         ::std::io::stdin().read_line(&mut input).unwrap();
-        let y = input.trim().to_owned(); //trim the whitespace out
-        y
+        input = input.trim().to_owned(); //trim the whitespace out
+        input
         }
     };
 
