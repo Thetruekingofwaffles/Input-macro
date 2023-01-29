@@ -3,6 +3,7 @@ A simple input macro for rust, it works similar to the python input function.
 
 I hated typing stdin everytime because other languages(like c++ and python) had more concise syntax. I've been learning python recently and I decided I was going to make a macro that shortened the syntax and combined print for added convience.
 
+The inpuut macro always returns a string, but you can parse it into other datatypes, for example int.
 
 Example (Just copied what was in main.rs):
 
