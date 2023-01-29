@@ -10,7 +10,7 @@ Example (Just copied what was in main.rs):
 use input_macro_attempt::input;
 
 fn main() {
-    let x = input!("Enter a variable: "); //You can provide a string asking for input
+    let x = input!("Enter a variable: ");
     let y = input!(); 
     println!("The variable is: {} and {}", x, y);
 }
